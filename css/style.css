@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+}
+* {
+  padding: 0;
+  border-collapse: collapse;
+  vertical-align: top;
+  list-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+p,
+span,
+a,
+img {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  margin: 0 -15px;
+}
+
+#bg-color {
+  width: 100%;
+  display: inline-block;
+
+  padding: 30px 0;
+}
+
+.col-logo {
+  width: auto;
+  float: left;
+  padding: 0 60px;
+}
+/* .logo {
+  width: 100%;
+0  background-color: brown;
+  display: inline-block;
+  color: rgb(230, 17, 17);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+} */
+.col-menu {
+  width: auto;
+  float: right;
+  padding: 0 15px;
+}
+.menu {
+  display: inline-block;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.menu ul li a {
+  color: #000;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#banner {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.banner-up {
+  width: 100%;
+  max-width: 1020px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#banner img {
+  width: 100%;
+}
+#banner::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.col-banner {
+  width: auto;
+  float: left;
+  padding: 0 15px;
+}
+.banner-img {
+  width: 100%;
+  display: inline-block;
+}
+.banner-img h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 1.62px;
+}
+.banner-img p {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.54px;
+  padding: 15px 90px;
+}
+.banner-img button {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  border-radius: 26px;
+  background: #3695f1;
+  padding: 12px 32px;
+}
+.banner-img button:hover {
+  color: #000000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  border-radius: 26px;
+  background: #ffffff;
+  padding: 12px 32px;
+}
+
+#business {
+  width: 100%;
+  padding: 80px 0;
+  display: inline-block;
+}
+
+.people-row {
+  padding: 40px 0;
+}
+.col-people {
+  width: auto;
+  float: left;
+  padding: 0 15px;
+}
+
+.col-people h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.48px;
+  text-align: start;
+  max-width: 632px;
+}
+.col-people p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  justify-content: center;
+  text-align: start;
+  max-width: 520px;
+  padding: 15px 0;
+}
+.col-people-img {
+  width: auto;
+  float: left;
+  top: 0;
+}
+.col-people-img img {
+  width: 100%;
+  /* padding: 10px 0px 10px 66px;*/
+}
+.add-gap {
+  width: 100%;
+  display: inline-block;
+  padding: 80px 0;
+}
+#footer {
+  width: 100%;
+  display: inline-block;
+  background-color: #08254f;
+  padding: 15px 0;
+}
+.col-footer {
+  width: 25%;
+  float: left;
+  padding: 0px 15px;
+}
+.col-footer p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.16px;
+  max-width: 300px;
+}
+
+.col-footer h5 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+.col-footer ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 250% */
+  letter-spacing: 0.48px;
+}
